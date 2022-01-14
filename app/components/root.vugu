@@ -1,0 +1,45 @@
+<html>
+<head>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+<!-- link rel="manifest" href="/assets/images/favicon/site.webmanifest" -->
+<link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- <title>{{.Title}}</title> -->
+<!-- <title>Vugu Dev - {{.Request.URL.Path}}</title> -->
+<!-- {{end}} -->
+<meta charset="utf-8"/>
+
+<!-- {{if .MetaTags}}{{range $k, $v := .MetaTags}} -->
+<!-- <meta name="{{$k}}" content="{{$v}}"/> -->
+<!-- {{end}}{{end}} -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- {{if .CSSFiles}}{{range $f := .CSSFiles}} -->
+<!-- <link rel="stylesheet" href="{{$f}}" /> -->
+<link rel="stylesheet" href="/assets/css/vendor.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/custom.css" />
+
+</head>
+    <body>
+        
+        <div id="root">
+        </div>
+    </body>
+</html>
+
+<script type="application/x-go">
+
+type Root struct {
+    // Hero vugu.Builder // below header but above Body
+    Body vugu.Builder // main body content
+    // Sidebar vugu.Builder // sidebar to right of Body
+    // FullBody vugu.Builder // body section without any wrapping
+}
+
+</script>

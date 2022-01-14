@@ -1,11 +1,14 @@
+//go:build wasm
 // +build wasm
 
 package main
 
 import (
 	"flag"
+	
 	"fmt"
-	"github.com/vugu-examples/simple/wasm/index/setup"
+
+	"github.com/vugu-examples/simple/app"
 	"github.com/vugu/vugu"
 	"github.com/vugu/vugu/domrender"
 )
@@ -29,7 +32,7 @@ func main() {
 		panic(err)
 	}
 
-	rootBuilder := setup.VuguSetup(buildEnv, renderer.EventEnv())
+	rootBuilder := app.VuguSetup(buildEnv, renderer.EventEnv())
 	//rootBuilder := &comps.Root{}
 
 	for ok := true; ok; ok = renderer.EventWait() {
