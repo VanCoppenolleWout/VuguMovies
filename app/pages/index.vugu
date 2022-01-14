@@ -1,0 +1,12 @@
+<div>
+    <main role="main" class="container">
+        <p>Index</p>
+    </main>
+</div>
+
+<script type="application/x-go">
+
+type Index struct {
+}
+
+</script>

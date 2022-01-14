@@ -1,0 +1,15 @@
+<div>
+    <main role="main" class="container">
+        <components:TopNav></components:TopNav>
+        <vg-comp expr="c.Body"/>
+    </main>
+</div>
+
+<script type="application/x-go">
+import "github.com/vugu-examples/simple/app/components"
+
+
+type Root struct {
+    Body vugu.Builder
+}
+</script>
