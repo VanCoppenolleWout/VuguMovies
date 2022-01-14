@@ -29,6 +29,7 @@
     <body>
         
         <div id="root">
+        <p>jo de manne</p>
         </div>
     </body>
 </html>
@@ -40,6 +41,7 @@ type Root struct {
     Body vugu.Builder // main body content
     // Sidebar vugu.Builder // sidebar to right of Body
     // FullBody vugu.Builder // body section without any wrapping
+    AutoReload bool // set to true during dev
 }
 
 </script>

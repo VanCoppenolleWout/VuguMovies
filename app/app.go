@@ -1,47 +1,50 @@
 package app
 
 import (
-	"github.com/vugu-examples/simple/app/pages"
-	"github.com/vugu-examples/simple/app/components"
 	"github.com/vugu/vgrouter"
 	"github.com/vugu/vugu"
+	"github.com/vugu-examples/simple/app/components"
+	"github.com/vugu-examples/simple/app/pages"
 )
 
 type VuguSetupOptions struct {
 	AutoReload bool
 }
 
-// OVERALL APPLICATION WIRING IN vuguSetup
+// VuguSetup performs UI setup and wiring.
 func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupOptions) (*App, vugu.Builder) {
+
 	if opts == nil {
-		
+		opts = &VuguSetupOptions{}
 	}
-	
+
 	app := &App{
-		Router: vgrouter.New(eventEnv),
+		Router:   vgrouter.New(eventEnv),
 	}
 
 	pageMap := pages.MakeRoutes().WithRecursive(true).WithClean(true).Map()
+	// pageSeq := &state.PageSeq{
+	// 	PageMap:  pageMap,
+	// 	PathList: SiteNavPathList,
+	// }
+	// app.PageSeq = pageSeq
 
-	// tl := state.LoadTacoListAPI()
-	// ca := state.LoadCartAPI()
-	// CREATE A NEW ROUTER INSTANCE
-	//router := vgrouter.New(eventEnv)
-
-	// MAKE OUR WIRE FUNCTION POPULATE ANYTHING THAT WANTS A "NAVIGATOR".
 	buildEnv.SetWireFunc(func(b vugu.Builder) {
+
 		if c, ok := b.(vgrouter.NavigatorSetter); ok {
 			c.NavigatorSet(app.Router)
 		}
-		// if s, ok := b.(state.TacoListAPISetter); ok {
-		// 	s.TacoListAPISet(tl)
+
+		// if c, ok := b.(state.PageInfoSetter); ok {
+		// 	c.PageInfoSet(app.PageInfo)
 		// }
-		// if s, ok := b.(state.CartAPISetter); ok {
-		// 	s.CartAPISet(ca)
+
+		// if c, ok := b.(state.PageSeqSetter); ok {
+		// 	c.PageSeqSet(app.PageSeq)
 		// }
+
 	})
 
-	// CREATE THE ROOT COMPONENT
 	root := &components.Root{
 		AutoReload: opts.AutoReload,
 	}
@@ -58,18 +61,6 @@ func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupO
 	app.Router.MustAddRouteExact("/", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &pages.Index{}
 	}))
-	// router.MustAddRouteExact("/cart",
-	// 	vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
-	// 		root.Body = &pages.Cart{}
-	// 	}))
-	// router.MustAddRouteExact("/checkout",
-	// 	vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
-	// 		root.Body = &pages.Checkout{}
-	// 	}))
-	// router.SetNotFound(vgrouter.RouteHandlerFunc(
-	// 	func(rm *vgrouter.RouteMatch) {
-	// 		root.Body = &pages.PageNotFound{} // A PAGE FOR THE NOT-FOUND CASE
-	// 	}))
 
 	if app.Router.BrowserAvail() {
 		err := app.Router.ListenForPopState()
