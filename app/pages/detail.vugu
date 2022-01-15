@@ -1,0 +1,10 @@
+<div class="detail">
+    <p>Detail</p>
+</div>
+
+<script type="application/x-go">
+
+type Detail struct {}
+
+
+</script>

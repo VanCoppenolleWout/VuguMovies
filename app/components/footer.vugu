@@ -1,0 +1,12 @@
+
+    <footer class="footer">
+        <p>Footer</p>    
+    </footer>
+
+<script type="application/x-go">
+
+type Footer struct {
+    
+}
+
+</script>

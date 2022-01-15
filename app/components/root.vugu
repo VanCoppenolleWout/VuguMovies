@@ -21,15 +21,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- {{if .CSSFiles}}{{range $f := .CSSFiles}} -->
 <!-- <link rel="stylesheet" href="{{$f}}" /> -->
-<link rel="stylesheet" href="/assets/css/vendor.css" />
-<link rel="stylesheet" href="/assets/css/style.css" />
-<link rel="stylesheet" href="/assets/css/custom.css" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+<script vg-if='c.AutoReload' src="http://localhost:8324/auto-reload.js"></script>
 
 </head>
     <body>
-        
         <div id="root">
-        <p>jo de manne</p>
+        <components:Header></components:Header>
+        <vg-comp expr="c.Body"></vg-comp>
+        <components:Footer></components:Footer>
         </div>
     </body>
 </html>
@@ -37,10 +37,7 @@
 <script type="application/x-go">
 
 type Root struct {
-    // Hero vugu.Builder // below header but above Body
     Body vugu.Builder // main body content
-    // Sidebar vugu.Builder // sidebar to right of Body
-    // FullBody vugu.Builder // body section without any wrapping
     AutoReload bool // set to true during dev
 }
 

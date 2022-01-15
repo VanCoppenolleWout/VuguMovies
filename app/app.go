@@ -62,6 +62,10 @@ func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupO
 		root.Body = &pages.Index{}
 	}))
 
+	app.Router.MustAddRoute("/detail", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+		root.Body = &pages.Detail{}
+	}))
+
 	if app.Router.BrowserAvail() {
 		err := app.Router.ListenForPopState()
 		if err != nil {

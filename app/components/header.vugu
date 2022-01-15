@@ -1,0 +1,12 @@
+
+    <header class="header">
+        <p>Header</p>    
+    </header>
+
+<script type="application/x-go">
+
+type Header struct {
+    
+}
+
+</script>
