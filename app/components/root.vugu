@@ -29,9 +29,6 @@
     <body>
         <div id="root">
         <components:Header></components:Header>
-        <div vg-if='c.AutoReload == true'>
-            <button @click='c.HandleSubmit(event)' >Login</button>
-        </div>
         <vg-comp expr="c.Body"></vg-comp>
         <components:Footer></components:Footer>
         </div>

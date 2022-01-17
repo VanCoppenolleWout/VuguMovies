@@ -1,5 +1,45 @@
 <div class="o-layout--login">
-    
+    <div class="o-container-xl">
+        <section class="c-login">
+            <div class="c-register-header">
+                <svg class="c-svg--back" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H6M12 5l-7 7 7 7" />
+                </svg>
+                <h1 class="c-register--title">Create an account</h1>
+                <div style="width: 24px;"></div>
+            </div>
+            <form action="">
+                <div>
+                    <div class="o-layout-inputs">
+                        <div class="c-input-full">
+                            <label class="c-label" for="">Name</label>
+                            <input class="c-input" type="email" name="" id="" placeholder="John">
+                        </div>
+                        <div class="c-input-full">
+                            <label class="c-label" for="">Last Name</label>
+                            <input class="c-input" type="password" name="" id="" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="c-input-full">
+                        <label class="c-label" for="">Nickname</label>
+                        <input class="c-input" type="password" name="" id="" placeholder="Nickname">
+                    </div>
+                    <div class="o-layout-inputs">
+                        <div class="c-input-full">
+                            <label class="c-label" for="">Email</label>
+                            <input class="c-input" type="email" name="" id="" placeholder="example@mail.com">
+                        </div>
+                        <div class="c-input-full">
+                            <label class="c-label" for="">Password</label>
+                            <input class="c-input" type="password" name="" id="" placeholder="************">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="o-button-reset c-login--btn">Register</button>
+            </form>
+        </section>
+    </div>
 </div>
 
 <script type="application/x-go">

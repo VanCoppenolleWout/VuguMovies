@@ -1,6 +1,484 @@
-<div class="o-layout--login">
-
-</div>
+<div class="o-container">
+      <div class="o-movies-layout">
+        <div class="c-movie">
+          <h1 class="c-movie--title">Trending movies</h1>
+          <section class="o-movie-layout">
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="c-movie--poster"
+                src="/assets/images/placeholder/movie_placeholder.jpeg"
+                alt=""
+              />
+              <div class="o-layout-likes">
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--like"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--like">43</p>
+                </div>
+                <div class="o-layout-likes-indv">
+                  <svg
+                    class="c-svg--comment"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#A3A3A3"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    ></path>
+                  </svg>
+                  <p class="c-movie--comment">12</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <aside class="c-filter">
+          <div class="o-filter-layout" style="margin-bottom: 2rem">
+            <h2 class="c-filter--title">Filters</h2>
+            <button class="o-button-reset c-filter--btn__clear">
+              Clear all
+            </button>
+          </div>
+          <section class="c-filter-section">
+            <div class="o-filter-layout">
+              <p class="c-filter--subtitle">Genre</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </div>
+            <div style="margin-top: 0.5rem">
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="action" />
+                <label for="action">Action</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="adventure" />
+                <label for="action">Adventure</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="comedy" />
+                <label for="action">Comedy</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="crime" />
+                <label for="action">Crime</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="horror" />
+                <label for="action">Horror</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="thriller" />
+                <label for="action">Thriller</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="romance" />
+                <label for="action">Romance</label>
+              </div>
+              <div class="o-checkbox-layout">
+                <input type="checkbox" name="" id="drama" />
+                <label for="action">Drama</label>
+              </div>
+            </div>
+          </section>
+          <section class="c-filter-section">
+            <div class="o-filter-layout">
+              <p class="c-filter--subtitle">Year</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </div>
+          </section>
+          <section class="c-filter-section">
+            <div class="o-filter-layout">
+              <p class="c-filter--subtitle">Trending</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </div>
 
 <script type="application/x-go">
 
