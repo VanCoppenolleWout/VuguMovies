@@ -66,6 +66,10 @@ func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupO
 		root.Body = &pages.Detail{}
 	}))
 
+	app.Router.MustAddRoute("/login", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+		root.Body = &pages.Login{}
+	}))
+
 	if app.Router.BrowserAvail() {
 		err := app.Router.ListenForPopState()
 		if err != nil {

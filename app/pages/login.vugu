@@ -1,0 +1,28 @@
+<div class="o-layout--login">
+    <div class="o-container-lg">
+        <section class="c-login">
+            <div class="c-login-header">
+                <h1 class="c-login--title">Log in</h1>
+                <span class="c-login--text">No account yet? <span class="c-login--link">Register here</span></span>
+            </div>
+            <form action="">
+                <div class="c-input-full">
+                    <label class="c-label" for="">email</label>
+                    <input class="c-input" type="email" name="" id="" placeholder="example@mail.com">
+                </div>
+                <div>
+                    <label class="c-label" for="">password</label>
+                    <input class="c-input" type="password" name="" id="" placeholder="************">
+                </div>
+                <button type="submit" class="o-button-reset c-login--btn">Log in</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+<script type="application/x-go">
+
+type Login struct {}
+
+
+</script>
