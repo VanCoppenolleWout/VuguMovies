@@ -29,6 +29,9 @@
     <body>
         <div id="root">
         <components:Header></components:Header>
+        <div vg-if='c.AutoReload == true'>
+            <button @click='c.HandleSubmit(event)' >Login</button>
+        </div>
         <vg-comp expr="c.Body"></vg-comp>
         <components:Footer></components:Footer>
         </div>
@@ -37,9 +40,21 @@
 
 <script type="application/x-go">
 
+import "github.com/vugu/vgrouter"
+import "log"
+
 type Root struct {
+    vgrouter.NavigatorRef
     Body vugu.Builder // main body content
     AutoReload bool // set to true during dev
+}
+
+func (c *Root) Init(ctx vugu.InitCtx) {
+    log.Println(c.AutoReload)
+ }
+
+func (c *Root) HandleSubmit(event vugu.DOMEvent) {
+    log.Println("Click")
 }
 
 </script>

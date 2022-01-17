@@ -22,6 +22,8 @@ func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupO
 		Router:   vgrouter.New(eventEnv),
 	}
 
+	//router := vgrouter.New(eventEnv)
+
 	pageMap := pages.MakeRoutes().WithRecursive(true).WithClean(true).Map()
 	// pageSeq := &state.PageSeq{
 	// 	PageMap:  pageMap,
@@ -68,6 +70,14 @@ func VuguSetup(buildEnv *vugu.BuildEnv, eventEnv vugu.EventEnv, opts *VuguSetupO
 
 	app.Router.MustAddRoute("/login", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
 		root.Body = &pages.Login{}
+	}))
+
+	app.Router.MustAddRoute("/register", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+		root.Body = &pages.Register{}
+	}))
+
+	app.Router.MustAddRoute("/movies", vgrouter.RouteHandlerFunc(func(rm *vgrouter.RouteMatch) {
+		root.Body = &pages.Movies{}
 	}))
 
 	if app.Router.BrowserAvail() {

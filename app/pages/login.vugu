@@ -14,7 +14,10 @@
                     <label class="c-label" for="">password</label>
                     <input class="c-input" type="password" name="" id="" placeholder="************">
                 </div>
-                <button type="submit" class="o-button-reset c-login--btn">Log in</button>
+                <button @click='c.Navigate("/", nil)' class="o-button-reset c-login--btn">Log in</button>
+                <button @click='c.Show = !c.Show; log.Print("toggled!")'>
+                     Toggle me, Silly
+                </button>
             </form>
         </section>
     </div>
@@ -22,7 +25,16 @@
 
 <script type="application/x-go">
 
-type Login struct {}
+import (
+    "github.com/vugu/vgrouter"
+    "log"
+)
 
+type Login struct {
+
+    // ANYTHING THAT MUST NAVIGATE NEED ONLY EMBED THIS
+    vgrouter.NavigatorRef
+    Show bool `vugu:"data"`
+}
 
 </script>
