@@ -10,7 +10,7 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<!-- <title>{{.Title}}</title> -->
+<title>MovieCheckr</title>
 <!-- <title>Vugu Dev - {{.Request.URL.Path}}</title> -->
 <!-- {{end}} -->
 <meta charset="utf-8"/>
@@ -22,6 +22,7 @@
 <!-- {{if .CSSFiles}}{{range $f := .CSSFiles}} -->
 <!-- <link rel="stylesheet" href="{{$f}}" /> -->
 <link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="/assets/css/normalize.css" />
 <script vg-if='c.AutoReload' src="http://localhost:8324/auto-reload.js"></script>
 
 </head>

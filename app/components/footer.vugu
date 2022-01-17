@@ -1,7 +1,35 @@
-
-    <footer class="footer">
-        <p>Footer</p>    
-    </footer>
+<footer class="c-footer-outer">
+    <div class="o-container">
+        <div class="c-footer-inner">
+            <h1 class="c-footer--title">MovieCheckr</h1>
+            <div class="c-footer-layout">
+                <div class="c-footer-layout__inner">
+                    <h2 class="c-footer--sub">About us</h2>
+                    <a class="c-footer--text" href="http://">Why MovieCheckr</a>
+                    <a class="c-footer--text" href="http://">Services</a>
+                    <a class="c-footer--text" href="http://">Movies</a>
+                </div>
+                <div class="c-footer-layout__inner">
+                    <h2 class="c-footer--sub">Follow us</h2>
+                    <a class="c-footer--text" href="http://">Facebook</a>
+                    <a class="c-footer--text" href="http://">Instagram</a>
+                    <a class="c-footer--text" href="http://">Twitter</a>
+                </div>
+                <div class="c-footer-layout__inner">
+                    <h2 class="c-footer--sub">Legal</h2>
+                    <a class="c-footer--text" href="http://">Terms & Conditions</a>
+                    <a class="c-footer--text" href="http://">Privacy Policy</a>
+                </div>
+                <div class="c-footer-layout__inner">
+                    <h2 class="c-footer--sub">Contact info</h2>
+                    <p class="c-footer--text">09 597 315 87</p>
+                    <a class="c-footer--text" href="http://">info@MovieCheckr.com</a>
+                </div>
+            </div>
+            <div style="width: 122px;"></div>
+        </div>
+    </div>
+</footer>
 
 <script type="application/x-go">
 

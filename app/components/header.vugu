@@ -1,7 +1,11 @@
-
-    <header class="header">
-        <p>Header</p>    
-    </header>
+<div class="o-container">
+    <div class="o-row">
+        <header class="c-header">
+            <h1 class="c-header--title">MovieCheckr</h1>
+            <button class="c-header--btn o-button-reset">Sign in</button>
+        </header>
+    </div>
+</div>
 
 <script type="application/x-go">
 
