@@ -1,6 +1,190 @@
-<div class="detail">
-    <p>Detail</p>
-</div>
+<div class="o-container-sm">
+      <div class="o-detail-layout">
+        <div class="o-layout-detail">
+          <img
+            class="c-movie--poster-big"
+            src="/assets/images/placeholder/movie_placeholder.jpeg"
+            alt=""
+          />
+          <div class="c-detail-rating">
+            <div>
+              <div class="c-detail-titlesection">
+                <p class="c-detail--title">Don't Look Up</p>
+                <p class="c-detail--in">2021, Sciencefiction, 2h 25m</p>
+              </div>
+  
+              <div class="c-detail-mainsection">
+                <div class="c-detail-section">
+                  <p class="c-detail--rating">43</p>
+                  <p class="c-detail--text">Likes</p>
+                </div>
+                <div class="c-detail-section">
+                  <p class="c-detail--rating">13</p>
+                  <p class="c-detail--text">Comments</p>
+                </div>
+                <div class="c-detail-section">
+                  <p class="c-detail--rating">76%</p>
+                  <p class="c-detail--text">Score</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="o-likes-layout">
+              <button class="o-button-reset c-button-like">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 15l-6-6-6 6" />
+                </svg>
+                <p class="c-button-like--text">Like</p>
+              </button>
+              <button class="o-button-reset c-button-like">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+                <p class="c-button-like--text">Dislike</p>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="c-commentbox">
+          <textarea
+            class="c-commentbox-input"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Type your review..."
+          ></textarea>
+          <div class="o-layout-commentbox">
+            <div></div>
+            <div class="o-layout-commentbox--btn">
+              <button class="c-commentbox-cancel o-button-reset">Cancel</button>
+              <button class="c-commentbox-post o-button-reset">Post</button>
+            </div>
+          </div>
+        </div>
+        <div class="c-detail-reviews">
+          <div class="c-review">
+            <div class="o-layout-user">
+              <p class="c-review-user">woutvc</p>
+              <p class="c-review-date">18/01/2022 - 21:32</p>
+            </div>
+            <div>
+              Imagine just chilling there, taking a nap, enjoying the ride.
+              Suddenly there comes somebody from the other direction, that had
+              the same amazing idea. But both you are either napping totally
+              unaware of the situation. And either if one was aware and braked,
+              you would still crash.
+            </div>
+            <div class="o-layout-commentbtns">
+              <button class="o-button-reset c-commentbox-cancel" style="font-size: 0.875rem;">Reply</button>
+              <button class="o-button-reset c-button-like--comment">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 15l-6-6-6 6" />
+                </svg>
+                <p class="c-button-like--text">10</p>
+              </button>
+              <button class="o-button-reset c-button-like--comment">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+                <p class="c-button-like--text">3</p>
+              </button>
+            </div>
+            
+          </div>
+          <div class="c-review">
+            <div class="o-layout-user">
+              <p class="c-review-user">woutvc</p>
+              <p class="c-review-date">18/01/2022 - 21:32</p>
+            </div>
+            <div>
+              Imagine just chilling there, taking a nap, enjoying the ride.
+              Suddenly there comes somebody from the other direction, that had
+              the same amazing idea. But both you are either napping totally
+              unaware of the situation. And either if one was aware and braked,
+              you would still crash.
+            </div>
+            <div class="o-layout-commentbtns">
+              <button class="o-button-reset c-commentbox-cancel" style="font-size: 0.875rem;">Reply</button>
+              <button class="o-button-reset c-button-like--comment">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M18 15l-6-6-6 6" />
+                </svg>
+                <p class="c-button-like--text">10</p>
+              </button>
+              <button class="o-button-reset c-button-like--comment">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+                <p class="c-button-like--text">3</p>
+              </button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
 
 <script type="application/x-go">
 
